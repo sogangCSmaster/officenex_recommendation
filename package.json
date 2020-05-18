@@ -1,0 +1,32 @@
+{
+  "name": "officenex_recommendation",
+  "version": "1.0.0",
+  "description": "오피스넥스 상품추천 스크립트",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogangCSmaster/officenex_recommendation.git"
+  },
+  "keywords": [
+    "상품추천",
+    "협업필터링",
+    "redis"
+  ],
+  "author": "유승재",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sogangCSmaster/officenex_recommendation/issues"
+  },
+  "homepage": "https://github.com/sogangCSmaster/officenex_recommendation#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "raccoon": "^0.2.8",
+    "redis": "^3.0.2"
+  }
+}
